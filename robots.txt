@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://site-monique-cristielle.vercel.app/sitemap.xml
