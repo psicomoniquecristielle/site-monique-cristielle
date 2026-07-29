@@ -115,6 +115,10 @@ color: #fff;
 .about-text { flex: 2 1 420px; }
 .about-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
+.about-block--pub { align-items: center; }
+.about-text--narrow { flex: 1 1 320px; max-width: 380px; }
+.pub-intro-credentials { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.1); font-size: 14px; letter-spacing: 0.03em; color: var(--color-text-light); text-transform: uppercase; }
+
 /* Topics (temas de trabalho) */
 .topics-list { display: flex; flex-direction: column; margin-top: 40px; }
 .topic-block { display: flex; gap: 28px; padding: 36px 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
