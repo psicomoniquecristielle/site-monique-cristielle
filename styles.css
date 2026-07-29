@@ -110,7 +110,7 @@ color: #fff;
 .btn-center-wrap { text-align: center; margin: 56px 0; }
 
 /* About block */
-.about-block { display: flex; gap: 56px; align-items: center; flex-wrap: wrap; }
+.about-block { display: flex; gap: 56px; align-items: flex-start; flex-wrap: wrap; }
 .about-photo { flex: 1 1 300px; border-radius: 16px; overflow: hidden; height: 420px; min-height: 420px; background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); position: relative; }
 .about-text { flex: 2 1 420px; }
 .about-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
