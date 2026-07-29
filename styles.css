@@ -15,6 +15,8 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--color-primary-dark); color: #fff; padding: 12px 20px; z-index: 2000; border-radius: 0 0 8px 0; font-weight: 600; text-decoration: none; }
+.skip-link:focus { left: 0; }
 body {
   margin: 0;
   font-family: var(--font-body);
