@@ -116,8 +116,9 @@ color: #fff;
 .about-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
 .about-block--pub { align-items: center; }
-.about-text--narrow { flex: 1 1 320px; max-width: 380px; }
+.pub-intro-lead { font-size: 24px; line-height: 1.5; color: var(--color-primary-dark); font-weight: 500; }
 .pub-intro-credentials { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.1); font-size: 14px; letter-spacing: 0.03em; color: var(--color-text-light); text-transform: uppercase; }
+.pub-intro-note { margin-top: 16px; font-size: 14px; color: var(--color-text-light); font-style: normal; }
 
 /* Topics (temas de trabalho) */
 .topics-list { display: flex; flex-direction: column; margin-top: 40px; }
