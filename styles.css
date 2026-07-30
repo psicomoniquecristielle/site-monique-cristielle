@@ -181,5 +181,6 @@ color: #fff;
   .section { padding: 48px 0; }
   .about-block { gap: 32px; }
   .topic-block { flex-direction: column; gap: 14px; }
+  .about-photo { position: static; top: auto; }
 }
                   
