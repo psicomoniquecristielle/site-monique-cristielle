@@ -60,7 +60,7 @@ em { font-style: normal; color: var(--color-accent-dark); font-weight: 600; }
 .nav-links a:hover, .nav-links a.active { color: var(--color-primary); border-bottom-color: var(--color-accent); }
 .nav-toggle { display: none; background: none; border: none; font-size: 1.6rem; cursor: pointer; color: var(--color-primary-dark); }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .nav-toggle { display: block; }
   .nav-links { position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); flex-direction: column; align-items: flex-start; padding: 20px 24px; gap: 16px; border-bottom: 1px solid rgba(0,0,0,0.08); display: none; }
   .nav-links.open { display: flex; }
@@ -160,13 +160,6 @@ color: #fff;
 .pub-item .pub-title a:hover { color: var(--color-accent-dark); }
 .pub-item .pub-meta { color: var(--color-text-light); font-size: 0.92rem; }
 
-/* Contact form */
-.contact-form { max-width: 560px; margin: 40px auto 0; display: grid; gap: 18px; }
-.contact-form label { font-weight: 600; margin-bottom: 6px; display: block; }
-.contact-form input, .contact-form textarea { width: 100%; padding: 14px 16px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.15); font-family: var(--font-body); font-size: 1rem; background: #fff; }
-.contact-form textarea { min-height: 140px; resize: vertical; }
-.contact-note { text-align: center; color: var(--color-text-light); font-size: 0.9rem; margin-top: 14px; }
-
 /* Footer */
 .site-footer { background: var(--color-primary-dark); color: #e7e5db; padding: 56px 24px 30px; text-align: center; }
 .footer-social { display: flex; justify-content: center; gap: 20px; margin-bottom: 24px; }
@@ -175,12 +168,12 @@ color: #fff;
 .footer-social svg { width: 20px; height: 20px; fill: #f7f4ee; }
 .site-footer .copy { font-size: 0.85rem; color: #b9b8ae; }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.55rem; }
   .section { padding: 48px 0; }
   .about-block { gap: 32px; }
   .topic-block { flex-direction: column; gap: 14px; }
-  .about-photo { position: static; top: auto; }
+  .about-photo { position: relative; top: auto; }
 }
                   
